@@ -3,6 +3,7 @@
 #instantiating the class
 #they are placed above the function or method and are executed in reverse order.
 class Myclass:
+    'hey,I am a class' #docstring containing information about the class
     @staticmethod
     def smeth():
         print('this is a static method')
@@ -11,3 +12,4 @@ class Myclass:
         print('this is a class method of',cls)
 Myclass.smeth()
 Myclass.cmeth()
+print(Myclass.__doc__)  #displays the docstring.

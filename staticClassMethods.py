@@ -10,4 +10,4 @@ class Myclass:
 Myclass.cmeth(cls)
 Myclass.smeth()
    #for better functioning,refer to decorators.py 
-Myclass.__docstring__()
+print(Myclass.__doc__())
